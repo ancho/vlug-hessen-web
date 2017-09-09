@@ -31,12 +31,10 @@ div(class:"row"){
 
                 section(class:"top-bar-section"){
                     ul(class:"left"){
-                        li{
-                            a(href:"${config.site_contextPath}index.html","Home")
-                        }
-                        li{
-                            a(href:"${config.site_contextPath}${config.archive_file}","Archive")
-                        }
+                        li{a(href:"${config.site_contextPath}index.html","Home")}
+                        li{a(href:"${config.site_contextPath}blog/index.html","Blogs")}
+                        li{a(href:"${config.site_contextPath}member.html","Mitglieder")}
+                        li{a(href:"${config.site_contextPath}${config.archive_file}","Archive")}
 
                         li(class:"has-dropdown"){
                             a(href:"#",'Projects')
@@ -49,9 +47,7 @@ div(class:"row"){
                             }
                         }
 
-                        li{
-                            a(href:"${config.site_contextPath}about.html","About")
-                        }
+                        li{a(href:"${config.site_contextPath}about.html","Über uns")}
                         li{
                             a(href:"${config.site_contextPath}${config.feed_file}","Subscribe")
                         }
