@@ -1,0 +1,19 @@
+= Linux Presentation Day am 18.11.2017 in Wiesbaden
+Stefan Kropp
+2017-11-18
+:jbake-type: post
+:jbake-status: published
+:jbake-tags: wiesbaden,linuxday
+:idprefix:
+
+== Beschreibung ==
+Der europaweite Linux Presentation Day am 18.11.2017 ermöglicht Interessierten -
+insbesondere auch Anfängern -, freie und sicherere Software-Alternativen kennenzulernen und selbst auszuprobieren. 
+In Wiesbaden beteiligt sich die Diltheyschule in Zusammenarbeit mit der Rhein-Main-Gruppe
+der Free Software Foundation Europe daran und stellt von 10:00 bis 16:00 ihr
+linuxbasiertes Schulsystem vor. Zusätzlich gibt es Vorträge und Workshops rund
+um Freie Software, auch für Windows- und Apple-Nutzer. Nähere Informationen
+unter: http://l.fsfe.org/lpdwi
+
+
+

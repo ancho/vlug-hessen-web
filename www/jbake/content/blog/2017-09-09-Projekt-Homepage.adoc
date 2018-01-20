@@ -1,0 +1,10 @@
+= Projekt - Homepage 
+Stefan Kropp
+2017-09-09
+:jbake-type: post
+:jbake-status: published
+:jbake-tags: project,homepage
+:idprefix:
+
+== Beschreibung ==
+Mit der Erstellung unserer eigenen Homepage starten wir auch schon unser link:../project/homepage.html[1. Projekt] der vlughessen.
