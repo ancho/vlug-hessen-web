@@ -10,13 +10,13 @@ gpgfp=9CCF 6F4B 5BA5 D85A F957  F637 1DC0 A737 286C 7955
 distribution=Debian
 windowmanager=seit neuestem -> i3
 mailclient=thunderbird
-linuxusersince=ca. 2001
+linuxusersince=ca. 2002
 sprache=Java/Groovy, Python
 ~~~~~~
 
 == Beschreibung
 
-Angefixt auf Linux von Stefan ca. 2001 mit Debian Woody.
+Angefixt auf Linux von Stefan ca. 2002 mit Debian Woody.
 Seit dem verschiedene Experimente. Ubuntu, Gentoo, Fedora/CentOS, Mint, Crunchbang #!
 
 Beruflich auch mal Kontakte mit Red Hat Enterprise gemacht.
