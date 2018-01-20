@@ -1,0 +1,26 @@
+title=Mitglieder
+date=2017-09-03
+type=page
+status=published
+~~~~~~
+
+Du willst mitmachen? Sehr gerne! Einfach eine Mail an kontakt@vlug-hessen.de
+
+== Mitglieder
+
+.Mitglieder der vLug-Hessen.
+[cols="2,5,5",options="header"]
+|===
+|Name
+|Linux-Distribution
+|Window-Manager
+
+|link:members/000001.html[Stefan Kropp]
+|Debian
+|IceWM
+
+|link:members/ancho.html[Frank Becker]
+|Debian
+|link:https://i3wm.org[i3]
+|===
+

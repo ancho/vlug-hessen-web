@@ -25,7 +25,11 @@ table() {
 			td("GPG-FP") td("${content.gpgfp}")
 	}
 	tr(){
-			td("Homepage") td("${content.website}")
+			td("Homepage") td() {
+              if (content.website) {
+                a(href: content.website, content.website)
+              }
+            }
 	}
 	tr(){
 			td("E-Mail") td("${content.mail.replace("@", " !at! ")}")

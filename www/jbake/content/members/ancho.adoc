@@ -1,0 +1,25 @@
+title=Frank Becker
+date=2018-01-20
+type=member
+tags=member
+status=published
+website=https://calmdevelopment.de
+mail=frank.becker@vlug-hessen.de
+gpgkeyid=286C7955
+gpgfp=9CCF 6F4B 5BA5 D85A F957  F637 1DC0 A737 286C 7955
+distribution=Debian
+windowmanager=seit neuestem -> i3
+mailclient=thunderbird
+linuxusersince=ca. 2001
+sprache=Java/Groovy, Python
+~~~~~~
+
+== Beschreibung
+
+Angefixt auf Linux von Stefan ca. 2001 mit Debian Woody.
+Seit dem verschiedene Experimente. Ubuntu, Gentoo, Fedora/CentOS, Mint, Crunchbang #!
+
+Beruflich auch mal Kontakte mit Red Hat Enterprise gemacht.
+
+Aber am Ende doch wieder beim guten alten Debian gelandet.
+
