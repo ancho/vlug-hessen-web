@@ -22,5 +22,8 @@ Du willst mitmachen? Sehr gerne! Einfach eine Mail an kontakt@vlug-hessen.de
 |link:members/ancho.html[Frank Becker]
 |Debian
 |link:https://i3wm.org[i3]
-|===
 
+|link:members/tpraxl.html[Thomas Praxl]
+|Mint
+|link:https://github.com/linuxmint/Cinnamon[Cinnamon]
+|===
