@@ -66,4 +66,3 @@ Zum übersetzen `make` ausführen.
 Es gibt eine Java Implementierung von asciidoctor. Diese kann man auch mit sdkman installieren.
 
 `sdk install asciidoctorj`
-
