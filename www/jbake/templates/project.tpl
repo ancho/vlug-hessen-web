@@ -24,20 +24,23 @@ layout 'layout/main.tpl', true,
                                         dd{
                                             a(href:"${content.website}", "$content.website")
                                         }
+                                        if ( content.projectURL ) {
+                                            dt{
+                                                strong("Projekt URL")
+                                            }
+                                            dd{
+                                                a(href:"${content.projectURL}","$content.projectURL")
+                                            }
+                                        }
 
-                                        dt{
-                                            strong("gitHub")
-                                        }
-                                        dd{
-                                            a(href:"${content.github}","$content.github")
-                                        }
-
-                                        dt{
-                                            strong("git")
-                                        }
-                                        dd{
-                                            code {
-                                                yieldUnescaped "git clone $content.git"
+                                        if ( content.git ) {
+                                            dt{
+                                                strong("git")
+                                            }
+                                            dd{
+                                                code {
+                                                    yieldUnescaped "git clone $content.git"
+                                                }
                                             }
                                         }
                                     }
