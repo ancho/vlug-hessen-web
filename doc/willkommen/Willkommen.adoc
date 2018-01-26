@@ -1,0 +1,54 @@
+// Copyright (C) 2018 Stefan Kropp <stefan.kropp@vlug-hessen.de> 
+= Willkommen bei der vLUG-Hessen 
+Willkommen bei der virtuellen Linux User Group Hessen
+
+== Willkommen
+Herzlich Willkommen bei der virtuellen Linux User Group Hessen (vLUG-Hessen).  Wir freuen uns auf eine schöne Zusammenarbeit und bedanken uns jetzt schon mal für
+deine Mithilfe.
+
+[square]
+* Mailingliste
+* Git-Server
+* IRC
+* gnusocial
+
+Es ist unser Ziel die Linux User über lokale Grenzen hinweg zusammen zu bringen und zusammen an Projekte (Softwareentwicklung und Dokumentation) zu arbeiten.
+
+== Die ersten Schritte
+=== Mailingliste
+Als erstes kannst du dich auf unserer allgemeinen Mailingliste eintragen. Hierzu schreibst du eine E-Mail an
+vlughessen-request@lists.tuxfamily.org mit dem Betreff subscribe.
+Bist du auf der Mailingliste eingetragen, macht es Sinn auf der Liste kurz Hallo zu sagen und sich vorzustellen.
+
+== tuxfamily
+Wir nutzen einige Dienste auf tuxfamily.org. Aus diesem Grund ist es vielleicht sinnvoll sich hier einen Account einrichten zu lassen https://www.tuxfamily.org/en/subscribe.
+Bitte schick uns dein Username von tuxfamily per E-Mail an kontakt@vlug-hessen.de.
+
+[square]
+* Du erstellst dir einen User auf www.tuxfamily.org
+* Du gibst uns deinen Usernamen
+* Wir fügen dich zum Projekt hinzu
+
+=== Git
+
+[source,bash]
+git clone ssh://<user>@git.tuxfamily.org/gitroot/vlughessen/homepage.git
+git clone ssh://<user>@git.tuxfamily.org/gitroot/vlughessen/shellscripts.git
+git clone ssh://<user>@git.tuxfamily.org/gitroot/vlughessen/dokumentation.git
+
+== Kommunikation
+
+=== Mailingliste
+Wichtige Informationen sollten immer über die Mailingliste kommuniziert werden: vlughessen@lists.tuxfamily.org
+
+=== IRC
+Wir haben auf Freenode ein IRC-Chat-Raum: #vlughessen. Hier kann jeder kommen wann und wie er möchte.
+Wir versuchen euch einen Stammtisch hinzubekommen.
+Unser Stammtisch ist jeden 1. Dienstag im Monat im IRC Freenode. Treffen ist ab 19:00 Uhr in #vlughessen.
+
+=== GNUSocial
+Auf GNUSocial findest du uns auf https://gnusocial.de/group/vlughessen
+
+=== E-Mail
+Du hast Fragen? Dann schreib einfach eine E-Mail an die Mailingliste oder direkt an uns kontakt@vlug-hessen.de.
+
