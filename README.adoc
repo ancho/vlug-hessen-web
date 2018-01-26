@@ -1,7 +1,52 @@
-== Homepage der vLUG-Hessen
-https://www.vlug-hessen.de
+= Homepage der vLUG-Hessen
 
-== Allgemeine Informationen
-Die Seiten werden mit JBake erzeugt und verwenden die 
-groovy-mte templates. Als CSS / JavaScript Framework
-wird Foundation genutzt.
+https://www.vlug-hessen.de
+Für die Erstellung der Homepage benutzen wir http://jbake.org[JBake].
+
+== JBake installieren
+
+Am einfachsten lässt sich JBake über http://sdkman.io[sdkman] installieren.
+Folge dazu folgenden Anleitungen 
+
+* http://sdkman.io/install.html
+* http://jbake.org/download.html
+
+Für ungeduldige:
+
+[source, bash]
+----
+curl -s "https://get.sdkman.io" | bash
+source "$HOME/.sdkman/bin/sdkman-init.sh"
+sdk install jbake
+----
+
+NOTE: Am besten den source part direkt in die bashrc oder zshrc packen.
+
+== Homepage backen
+
+Um die Seite zu erstellen:
+
+`jbake -b`
+
+Die übersetzte Seite befindet sich im _output_ Ordner.
+
+Um die Seite bereits vorab anzuschauen:
+
+`jbake -s`
+
+Startet einen jetty Server um die Seite auszuliefern.
+
+== Dokumentation erstellen
+
+Im Verzeichnis _doc/willkommen_ befindet sich ein Makefile um Dokumente zu übersetzen.
+Um zum Beispiel ein PDF aus dem Dokument _Willkommen.adoc_ zu erstellen wird http://asciidoctor.org[asciidoctor]
+verwendet. 
+
+Zum übersetzen `make` ausführen.
+
+
+=== asciidoctorj installieren
+
+Es gibt eine Java Implementierung von asciidoctor. Diese kann man auch mit sdkman installieren.
+
+`sdk install asciidoctorj`
