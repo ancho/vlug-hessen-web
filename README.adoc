@@ -26,7 +26,11 @@ NOTE: Am besten den source part direkt in die bashrc oder zshrc packen.
 
 Um die Seite zu erstellen:
 
-`jbake -b`
+[source, bash]
+----
+cd www/jbake
+jbake -b
+----
 
 Die übersetzte Seite befindet sich im _output_ Ordner.
 
