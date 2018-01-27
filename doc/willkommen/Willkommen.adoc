@@ -3,8 +3,13 @@
 Willkommen bei der virtuellen Linux User Group Hessen
 
 == Willkommen
-Herzlich Willkommen bei der virtuellen Linux User Group Hessen (vLUG-Hessen).  Wir freuen uns auf eine schöne Zusammenarbeit und bedanken uns jetzt schon mal für
+Herzlich Willkommen bei der virtuellen Linux User Group Hessen (vLUG-Hessen).  
+Wir freuen uns auf eine schöne Zusammenarbeit und bedanken uns jetzt schon mal für
 deine Mithilfe.
+
+Unser Ziel ist die Linux User über lokale Grenzen hinweg zusammen zu bringen und zusammen an Projekte (Softwareentwicklung und Dokumentation) zu arbeiten.
+
+Wir nutzen aktuell die folgenden Dienste.
 
 [square]
 * Mailingliste
@@ -12,16 +17,33 @@ deine Mithilfe.
 * IRC
 * gnusocial
 
-Es ist unser Ziel die Linux User über lokale Grenzen hinweg zusammen zu bringen und zusammen an Projekte (Softwareentwicklung und Dokumentation) zu arbeiten.
+
+.Table Status
+|===
+|Was | Anzahl 
+
+|Anzahl der Mailingliste
+|1
+
+|Anzahl der Git repositories
+|3
+
+|Mitglieder auf Mailingliste
+|4
+
+|Mitglieder auf tuxfamily.org
+|3
+
+|===
 
 == Die ersten Schritte
 === Mailingliste
 Als erstes kannst du dich auf unserer allgemeinen Mailingliste eintragen. Hierzu schreibst du eine E-Mail an
-vlughessen-request@lists.tuxfamily.org mit dem Betreff subscribe.
+vlughessen-request@lists.tuxfamily.org mit dem Betreff "subscribe".
 Bist du auf der Mailingliste eingetragen, macht es Sinn auf der Liste kurz Hallo zu sagen und sich vorzustellen.
 
 == tuxfamily
-Wir nutzen einige Dienste auf tuxfamily.org. Aus diesem Grund ist es vielleicht sinnvoll sich hier einen Account einrichten zu lassen https://www.tuxfamily.org/en/subscribe.
+Wir nutzen einige Dienste auf https://www.tuxfamily.org. Aus diesem Grund ist es vielleicht sinnvoll sich hier einen Account einrichten zu lassen https://www.tuxfamily.org/en/subscribe.
 Bitte schick uns dein Username von tuxfamily per E-Mail an kontakt@vlug-hessen.de.
 
 [square]
@@ -29,24 +51,36 @@ Bitte schick uns dein Username von tuxfamily per E-Mail an kontakt@vlug-hessen.d
 * Du gibst uns deinen Usernamen
 * Wir fügen dich zum Projekt hinzu
 
+Weitere Informationen findest du hier auf tuxfamily.org
+https://projects.tuxfamily.org/#%3Fdo%3Dgroup%3Bname%3Dvlughessen
+
 === Git
+Unsere Git repositories laufen aktuell auf tuxfamily. Mit deinem tuxfamily User kannst du die repositories clonen.
 
 [source,bash]
 git clone ssh://<user>@git.tuxfamily.org/gitroot/vlughessen/homepage.git
 git clone ssh://<user>@git.tuxfamily.org/gitroot/vlughessen/shellscripts.git
 git clone ssh://<user>@git.tuxfamily.org/gitroot/vlughessen/dokumentation.git
 
+* homepage.git: Hier ist unsere Homepage und allgemeine Dokumentationen zur vlughessen. Änderungen bitte vorher mit kontakt@vlug-hessen.de abstimmen.
+* shellscripts.git: Hier ist der richtige Platz für shell scripts.
+* dokumentation.git: Dokumentation rund um GNU/Linux.
+
 == Kommunikation
 
 === Mailingliste
-Wichtige Informationen sollten immer über die Mailingliste kommuniziert werden: vlughessen@lists.tuxfamily.org
+Wichtige Informationen sollten immer über die Mailingliste kommuniziert werden. Bist du auf der Mailingliste eingetragen,
+dann kannst du via vlughessen@lists.tuxfamily.org E-Mails an alle Mitglieder der vLUG-Hessen schicken.
 
 === IRC
 Wir haben auf Freenode ein IRC-Chat-Raum: #vlughessen. Hier kann jeder kommen wann und wie er möchte.
 Wir versuchen euch einen Stammtisch hinzubekommen.
 Unser Stammtisch ist jeden 1. Dienstag im Monat im IRC Freenode. Treffen ist ab 19:00 Uhr in #vlughessen.
 
+http://webchat.freenode.net?channels=%23vlughessen&uio=d4
+
 === GNUSocial
+Du hast einen Account auf GNUSocial? Dann kannst du gerne unserer Gruppe beitreten. 
 Auf GNUSocial findest du uns auf https://gnusocial.de/group/vlughessen
 
 === E-Mail
