@@ -54,6 +54,8 @@ Bitte schick uns dein Username von tuxfamily per E-Mail an kontakt@vlug-hessen.d
 Weitere Informationen findest du hier auf tuxfamily.org
 https://projects.tuxfamily.org/#%3Fdo%3Dgroup%3Bname%3Dvlughessen
 
+Die Dienste auf TuxFamily nutzen wir für vLug-interne Dinge.
+
 === Git
 Unsere Git repositories laufen aktuell auf tuxfamily. Mit deinem tuxfamily User kannst du die repositories clonen.
 
@@ -65,6 +67,9 @@ git clone ssh://<user>@git.tuxfamily.org/gitroot/vlughessen/dokumentation.git
 * homepage.git: Hier ist unsere Homepage und allgemeine Dokumentationen zur vlughessen. Änderungen bitte vorher mit kontakt@vlug-hessen.de abstimmen.
 * shellscripts.git: Hier ist der richtige Platz für shell scripts.
 * dokumentation.git: Dokumentation rund um GNU/Linux.
+
+== vLUG-Hessen
+Für Projekte und öffentliche Dinge nutzen wir Dienste auf GitHub https://github.com/vlug-hessen.
 
 == Kommunikation
 

@@ -1,0 +1,22 @@
+// Copyright (C) 2018 Stefan Kropp <stefan.kropp@vlug-hessen.de> 
+= Minutes of Meeting 
+Sitzungsprotokoll
+
+== Server / Git / TuxFamily - 27.01.2018 
+Für vLUG-Hessen "interne" Dinge werden wir Dienste auf TuxFamily nutzen.
+
+* Mailinglisten
+* Git für die Homepage 
+* vLUG-interne Dokumente
+
+Für Projekte kann der "Projekteleiter" wo er arbeiten will:
+
+* TuxFamily https://projects.tuxfamily.org/#%3Fdo%3Dgroup%3Bname%3Dvlughessen
+* GitHub https://github.com/vlug-hessen
+
+Wenn wir mehr Mitglieder haben, welche dann noch Lust auf Adminaufgaben haben,
+dann kann man ggf. überlegen ob wir einen eigenen Server aufsetzen.
+
+Zum spielen und testen haben einige von uns schon Zugriff auf Server,
+auf denen man dann schon mal etwas spielen kann.
+
