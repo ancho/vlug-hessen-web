@@ -1,0 +1,7 @@
+== Homepage der vLUG-Hessen
+https://www.vlug-hessen.de
+
+== Allgemeine Informationen
+Die Seiten werden mit JBake erzeugt und verwenden die 
+groovy-mte templates. Als CSS / JavaScript Framework
+wird Foundation genutzt.
