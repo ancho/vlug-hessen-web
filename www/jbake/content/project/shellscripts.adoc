@@ -1,0 +1,13 @@
+title=Shellscripts
+doctitle=Shellscripts
+date=2017-02-03
+type=project
+status=published
+git=https://github.com/vlug-hessen/Shellscripts.git
+website=https://www.vlug-hessen.de/project/shellscripts.html
+projectURL=https://github.com/vlug-hessen/Shellscripts
+tags=projekte
+~~~~~~
+
+== Das Shellscripts
+Das Shellscripts Projekt ist ein Repository mit hilfreichen Shell-Scripts 

@@ -1,0 +1,16 @@
+title=Sandbox
+doctitle=Sandbox
+date=2017-02-03
+type=project
+status=published
+git=https://github.com/vlug-hessen/Sandbox.git
+website=https://www.vlug-hessen.de/project/sandbox.html
+projectURL=https://github.com/vlug-hessen/Sandbox
+tags=projekte
+~~~~~~
+
+== Das Sandbox Projekt
+Das Sandbox Projekt ist ein git Repository in dem wir „Hello World“ Programme / Scripts, Beispiele und sonstiges Code speichern können, welchen wir gerne mit anderen Teilen wollen.
+
+Wir bekommen so irgendwann eine  Repository mit vielen Beispielen welche wir dann zum Nachschlagen verwenden können oder für neue Dinge einfach als Grundlage verwenden können. 
+

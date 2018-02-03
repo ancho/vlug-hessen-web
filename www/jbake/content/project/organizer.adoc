@@ -1,0 +1,15 @@
+title=Organizer
+doctitle=Organizer
+date=2017-02-03
+type=project
+status=published
+git=https://github.com/vlug-hessen/Organizer.git
+website=https://www.vlug-hessen.de/project/organizer.html
+projectURL=https://github.com/vlug-hessen/Organizer
+tags=projekte
+~~~~~~
+
+== Der Linux Organizer
+Das Ziel ist ein Linux Organizer für Kalender, Kontakte, Aufgaben und Notizen zu schreiben.
+
+Informationen sind im Wiki: https://github.com/vlug-hessen/Organizer/wiki
