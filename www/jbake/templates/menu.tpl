@@ -11,9 +11,9 @@ div(class:"row"){
                     a(href:"https://gnusocial.de/group/vlughessen"){
                         i(class:"foundicon-chat"){}
                     }
-                    /*a(href:"https://github.com/vlug-hessen/"){
+                    a(href:"https://github.com/vlug-hessen/"){
                         i(class:"foundicon-github"){}
-                    }*/
+                    }
                 }
             }
         }
