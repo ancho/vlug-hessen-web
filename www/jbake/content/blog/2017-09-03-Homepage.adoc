@@ -8,4 +8,4 @@ Stefan Kropp
 == Virtuelle Linux User Group Hessen
 Herzlich Willkommen auf der Homepage der virtuellen Linux User Group Hessen.
 
-Mehr Informationen über die vlughessen findest du link:about.html[hier].
+Mehr Informationen über die vlughessen findest du link:../about.html[hier].
