@@ -117,7 +117,8 @@ article.wrap {
 
 
 .title-box {
-    background: #428bca;
+    background: #428bca url("/img/vlug-Titel.JPG");
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
