@@ -34,11 +34,23 @@ jbake -b
 
 Die übersetzte Seite befindet sich im _output_ Ordner.
 
+Alternativ: `./build`
+
 Um die Seite bereits vorab anzuschauen:
 
 `jbake -s`
 
 Startet einen jetty Server um die Seite auszuliefern.
+
+Befindet man sich im root Verzeichnis und hat die Seite mit `./build` übersetzt muss man
+`jbake -s output` benutzen.
+
+== check links
+
+Um die Seite auf evtl. kaputte Links zu überprüfen gibt es ein kleines helperskript
+`check-links`
+
+Dazu wird das paket `w3c-linkchecker` benötigt.
 
 == Dokumentation erstellen
 
@@ -54,3 +66,4 @@ Zum übersetzen `make` ausführen.
 Es gibt eine Java Implementierung von asciidoctor. Diese kann man auch mit sdkman installieren.
 
 `sdk install asciidoctorj`
+
