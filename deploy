@@ -1,0 +1,29 @@
+#!/bin/bash
+#
+# rsync upload von output/ via ssh.
+# 
+# Benutzt eine alternative Konfiguration in .ssh/config
+#
+
+CONFIG=.ssh/config
+
+function deploy() {
+  rsync $DRY -r -u -v --delete -e "ssh -F $CONFIG" output/ vlughess:~/html/
+}
+
+
+function help() {
+  echo "usage: deploy [--dry] [--help]"
+}
+
+case "$1" in
+  --dry)
+    DRY=-n
+    ;;
+  --help)
+    help
+    exit
+    ;;
+esac
+
+deploy

@@ -1,0 +1,54 @@
+#!/bin/bash
+#
+# Dieses Skript baut die Webseite, startet einen Jetty Server und prüft interne und externe Links
+# mit w3c checklink.
+#
+# apt install w3c-linkchecker
+
+
+LINKCHECKER=$(which checklink)
+JBAKE=$(which jbake)
+
+SOURCE=www/jbake/
+DESTINATION=output
+
+URL="http://localhost:8820"
+
+function checkExecutablePresent() {
+    if [ -z $2 ]; then
+        echo $1 konnte nicht gefunden werden. Bitte installiere das entsprechende Programm.
+        exit 1
+    fi
+}
+
+# bake and serve in background.
+# return PID
+function bakeAndServe() {
+
+    echo "bake and serve in background"
+    $JBAKE -b $SOURCE $DESTINATION
+    $JBAKE -s $DESTINATION &
+}
+
+function terminateBake() {
+  sleep 1
+    echo "terminate jbake process"
+    PID=$(jobs -p)
+    CHILD=$(ps -o pid= --ppid $PID)
+
+    kill -TERM $PID
+    kill -TERM $CHILD
+}
+
+function check_links() {
+    echo "wait a few seconds until server is up and running"
+    sleep 2
+    $LINKCHECKER -r -b -q --suppress-broken -1:https://github.com/vlug-hessen/ $URL
+}
+
+checkExecutablePresent checklink $LINKCHECKER
+checkExecutablePresent jbake $JBAKE
+
+bakeAndServe
+check_links
+terminateBake 

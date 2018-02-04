@@ -1,0 +1,4 @@
+#!/bin/bash
+#
+
+jbake -b www/jbake/ output
