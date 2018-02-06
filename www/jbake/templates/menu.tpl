@@ -5,6 +5,8 @@ div(class:"row"){
             div(class:"title-content"){
                 h1("${config.blog_title}")
                 newLine()
+                img(class: "vlug-logo", src: "img/logos/vlug-only.png", alt: "vlug Tux Logo")
+                newLine()
                 p("${config.blog_subtitle}")
                 newLine()
                 p(class:"title-contact"){
