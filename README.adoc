@@ -52,18 +52,4 @@ Um die Seite auf evtl. kaputte Links zu überprüfen gibt es ein kleines helpers
 
 Dazu wird das paket `w3c-linkchecker` benötigt.
 
-== Dokumentation erstellen
-
-Im Verzeichnis _doc/willkommen_ befindet sich ein Makefile um Dokumente zu übersetzen.
-Um zum Beispiel ein PDF aus dem Dokument _Willkommen.adoc_ zu erstellen wird http://asciidoctor.org[asciidoctor]
-verwendet. 
-
-Zum übersetzen `make` ausführen.
-
-
-=== asciidoctorj installieren
-
-Es gibt eine Java Implementierung von asciidoctor. Diese kann man auch mit sdkman installieren.
-
-`sdk install asciidoctorj`
 
