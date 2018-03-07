@@ -33,7 +33,6 @@ div(class:"row"){
                     ul(class:"left"){
                         li{a(href:"${config.site_contextPath}index.html","Home")}
                         li{a(href:"${config.site_contextPath}blog/index.html","Blogs")}
-                        li{a(href:"${config.site_contextPath}member.html","Mitglieder")}
                         li{a(href:"${config.site_contextPath}${config.archive_file}","Archive")}
 												// dropdown - Projects
                         li(class:"has-dropdown"){
