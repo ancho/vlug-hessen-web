@@ -1,0 +1,19 @@
+title=Projekte
+doctitle=Projekte
+date=2018-03-18
+type=page
+status=published
+tags=projekte
+~~~~~~
+Auf dieser Seite findest du unsere aktuellen Projekte. 
+
+== Aktuelle Projekte
+
+[width="75%"]
+|=======
+|link:project/infrastruktur.html[Infrastruktur] | Die Infrastruktur der vLUG-Hessen
+|link:project/organizer.html[Organizer] | Ein Organizer für Linux
+|link:project/sandbox.html[Sandbox] | Die Sandbox - Hello World, Beispiele und Ideen
+|link:project/shellscripts.html[Shellscripts] | Hilfreichen Shell-Scripts
+|=======
+
