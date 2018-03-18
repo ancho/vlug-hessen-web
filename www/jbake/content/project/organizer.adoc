@@ -10,6 +10,52 @@ tags=projekte
 ~~~~~~
 
 == Der Linux Organizer
-Das Ziel ist ein Linux Organizer für Kalender, Kontakte, Aufgaben und Notizen zu schreiben.
+Das Ziel ist eine Organizer-Anwendung (Kalender, Kontakte, Aufgaben und Notizen) für Linux zu schreiben.
 
-Informationen sind im Wiki: https://github.com/vlug-hessen/Organizer/wiki
+== Warum noch ein Kalender / Adressbuch?
+
+Es gibt viele schöne Programme unter Linux. Meiner Meinung nach gibt es jedoch ein paar Nachteile.
+
+* Die Programme haben i.d.R keine Trennung zwischen Funktion und UI und auch keine API
+* Bei einigen Programmen fehlen wichtige Funktion
+
+Diese Anwendung soll ein Organzier für GNU/Linux werden. Die Anwendung soll Daten wie Kontakte, Adressen, Aufgaben, Termine und Notizen speichern und verwalten.
+Der Benutzer kann über verschiedene Anwendungen auf die Daten des Organizer zugreifen. Eine Command Line Anwendung, eine Shell Anwendung, eine ncurses Client sowie ein wxWidgets Client.
+Der Anwender hat so sehr viele Möglichkeiten auf seine Daten zuzugreifen. Die
+Command Line Anwendung kann verwendet werden um beispielsweise die Geburtstage
+beim Aufruf der Bash anzeigen zu lassen.
+Via Shell kann der Anwender einfach durch die Daten navigieren, auch wenn er
+z.b. gerade nur via ssh auf dem Rechner angemeldet ist.  
+Ein ncurses-Client für Konsolen-User. Hat der Benutzer ein Zugriff auf X, dann kann eine GUI via wxWidgets gestartet werden.
+
+Die Anwendung wird somit in mehrere Schichten aufgeteilt, um die Funktionen client-unabhängig zu nutzen.
+
+== Aktueller Stand
+
+Aktuell befindet sich im master ein Prototyp der Anwendung. Ich versuche gerade mich wieder etwas in C++ einzuarbeiten und mir langsam eine Struktur der Anwendung aufzubauen. Im Moment arbeite ich mich in
+
+* C++
+* boost
+* sqlite3
+* ncurses
+
+ein. 
+
+ ./sorganizer
+
+sorganizer ist die organizer shell. Über Befehle soll man auf die Daten zugreifen und diese verwalten können. Ich muss mir noch mal Flex und Bison ansehen,... vielleicht kann man eine Sprache für die shell definieren. Da hätte ich ziemlich Lust drauf. Flex ist für die lexikalische Analyse und Bison für die syntaktische Analyse. :-)
+
+image:sorganizer.png[height=300]
+
+ ./organizer --mutt-query 4
+
+organizer wird "einfach" ein Abfrage Programm welches via Parameter gesteuert wird, hier z.b. die Abfrage für neomutt.
+
+image:organizer.png[height=300]
+
+ ./norganizer
+
+Dies ist ein ncurses Client. Aktuell versuche ich noch ncurses zu verstehen und bin am überlegen ob man nicht eine kleines Framework bauen sollten.
+
+image:norganizer.png[height=300]
+
