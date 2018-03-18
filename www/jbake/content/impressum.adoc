@@ -1,0 +1,17 @@
+title=Impressum
+doctitle=Impressum
+date=2018-03-18
+type=page
+status=published
+tags=kontakt
+~~~~~~
+== Kontakt
+
+[width="75%"]
+|=======
+|Stefan Kropp
+|65719 Hofheim
+|stefan.kropp@vlug-hessen.de
+|=======
+
+

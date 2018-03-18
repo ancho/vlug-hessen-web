@@ -7,7 +7,8 @@ div(class:"row"){
          yield "Mixed with "
          a(href:"http://foundation.zurb.com/","Foundation v${config.foundation_version}")
          yield " | Baked with "
-         a(href:"http://jbake.org","JBake ${version}")
+         a(href:"http://jbake.org","JBake ${version} | ")
+		 a(href:"https://www.vlug-hessen.de/impressum.html", "Impressum")
         }
     }
 }
