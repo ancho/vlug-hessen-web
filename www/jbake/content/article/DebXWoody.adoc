@@ -1,0 +1,55 @@
+title=DebXWoody
+doctitle=DebXWoody
+date=2018-03-24
+type=article
+status=published
+tags=Debian
+~~~~~~
+:toc:
+
+== Debian GNU/Linux
+
+In diesem Kapitel beschreibe ich ein paar Informationen wie ich meine
+Debian-Systeme installiere / konfiguriere.
+
+=== Installation
+
+Debian kann auf der Homepage https://www.debian.org/distrib/ heruntergeladen
+werden. In den meisten Fällen verwende ich die "Netzwerkinstallation" über
+einen USB-Stick https://www.debian.org/CD/netinst/.
+
+Debian GNU/Linux – Installationsanleitung: https://www.debian.org/releases/stable/amd64/index.html.de
+
+=== Anwendungen
+
+Als Erstes installiere ich mir aptitude, da ich alle Anwendungen via aptitude
+installiere.
+
+	apt-get install aptitude
+
+Direkt danach folgenden - dir für mich - wichtigsten Programme.
+
+	aptitude install zsh tmux gnupg ssh git vim 
+
+Direkt gefolgt von Programmen zum lesen und schreiben von E-Mails und Verwaltung
+von Adressen.
+
+	aptitude install getmail procmail neomutt notmuch neovim lbdb abook w3m urlview 
+
+Installation vom WindowManager i3
+
+	aptitude i3-wm i3status i3lock lightdm acpi rofi xterm gnome-terminal gpa
+
+Kommunikation via IRC
+
+	aptitude irssi irssi-scrips hexchat hexchat-plugins
+
+Sonstige Anwendungen
+
+	aptitude vim-gtk mc 
+	aptitude firefox-esr libreoffice keepass2 firefox-esr-l10n-de timewarrior
+	aptitude imagemagick gimp eog shorewall
+	aptitude network-manager network-manager-gnome
+	aptitude thunar
+	aptitude screenfetch
+	aptitude asciidoc asciidoc-fop
