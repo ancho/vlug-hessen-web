@@ -1,0 +1,175 @@
+title=Neomutt und Co
+doctitle=Neomutt
+date=2018-03-25
+type=article
+status=published
+tags=Neomutt
+~~~~~~
+:toc:
+
+[abstract]
+E-Mails auf der Konsole mit neomutt. Dies ist nur ein Beispiel, da es viele
+Möglichkeiten gibt neomutt zu verwenden.
+
+image::../img/neomutt800.jpg[]
+
+== Installation
+
+	aptitude install getmail procmail neomutt notmuch neovim lbdb abook w3m urlview
+
+== Konfiguration
+
+* procmail
+* getmail
+* notmuch
+* neomutt
+
+
+=== procmail
+Beispiel für die Konfiguration von _~/.procmailrc_.
+
+-----
+ DATE_YEAR_MONTH=`date +'%Y-%m'`
+ MAILDIR=$HOME/.maildir
+ PMDIR=$HOME/.procmail
+ LOGFILE=$PMDIR/procmaillog 
+ LOGABSTRACT=yes
+ VERBOSE=on
+ DEFAULT=$MAILDIR/.Archiv.${DATE_YEAR_MONTH}/
+-----
+
+[NOTE]
+.Archiv Verzeichnisse
+=====================================================================
+Ich lasse meine E-Mails immer in Verzeichnisse nach Jahr und Monat sortieren.
+Wir werden später sehen, dass die Verzeichnisstruktur nur zur Speicherung der
+E-Mails verwendet wird. Mit notmuch wird eine eigene "virtuelle
+Verzeichnisstruktur" abgebildet, welche dann in neomutt verwendet wird. 
+=====================================================================
+
+Mailinglisten, Newsletter etc. werden in eigene Verzeichnisse abgelegt.
+
+-----
+:0
+* ^List-ID:.*vlughessen.lists.tuxfamily.org
+.Mailingliste.vlughessen/
+-----
+
+
+=== getmails
+Pro Account eine Konfigurationsdatei in _~.getmail/config/_.
+
+-----
+ [retriever]
+ type = SimpleIMAPSSLRetriever		<1>
+ server = imap.deinprovider.de
+ username =  deinBenutzername
+ password = deinPasswort
+ mailboxes = ("Inbox", "Archive","Sent Items") <2> 
+
+ [destination]
+ type = MDA_external
+ path = /usr/bin/procmail
+ arguments = ("-f", "%(sender)")
+
+ [options]
+ verbose = 1
+ read_all = false
+ message_log = ~/.getmail/log
+ delete_after = 3
+-----
+
+<1> Hier kann auch ein anderer type verwendet werden, z.b. für POP3.
+<2> Die angegebenen Mailboxes werden dann abgeholt.
+
+Mit dem Befehl _getmails_ werden die E-Mails abgeholt und dann an procmail
+übergeben. 
+
+=== notmuch
+Ich erstelle mir immer eine Datei _~/.notmuch-tagging_ in dem die Regeln für
+notmuch definiert sind. Anhand diesen Regeln werden dann die E-Mails mit Tags
+markiert.
+
+-----
+-inbox +NeoMutt -- folder:.Mailingliste.NeoMutt-Devel
+-inbox +NeoMutt -- folder:.Mailingliste.NeoMutt-Users
+-inbox +Debian +Debian-User -- folder:.Mailingliste.Debian-User-German
+
++Familie -- from:mama@domain.de
++Familie -- from:papa@domain.de
+
++Firma -- from:@meineFirma.de
+-----
+
+So werden z.b. die E-Mails von Mailinglisten mit einem oder mehreren Tags
+markiert und aus dem Posteingang entfernt (-inbox).
+
+
+== neomutt
+=== notmuch
+
+-----
+set nm_default_uri = "notmuch:///home/user/.maildir"
+set virtual_spoolfile=yes
+unmailboxes *
+virtual-mailboxes "Eingang" "notmuch://?query=tag:inbox"
+virtual-mailboxes "ToDo" "notmuch://?query=tag:todo"
+virtual-mailboxes "Ungelesene E-Mails" "notmuch://?query=tag:unread"
+virtual-mailboxes "NeoMutt" "notmuch://?query=tag:NeoMutt"
+virtual-mailboxes "Linux User Groups" "notmuch://?query=tag:LUG"
+virtual-mailboxes "Debian-User" "notmuch://?query=tag:Debian-User"
+virtual-mailboxes "Firma" "notmuch://?query=tag:Firma"
+virtual-mailboxes "Spam" "notmuch://?query=tag:spam"
+virtual-mailboxes "Sent Folder" "notmuch://?query=folder:.Sent"
+virtual-mailboxes "Sent Tag" "notmuch://?query=tag:sent"
+virtual-mailboxes "E-Mails mit PDF" "notmuch://?query=attachment:\.pdf"
+virtual-mailboxes "E-Mails mit JPG" "notmuch://?query=attachment:\.jpg%20or%20attachment:\.png"
+virtual-mailboxes "E-Mails von heute" "notmuch://?query=date:today"
+virtual-mailboxes "E-Mails von gestern" "notmuch://?query=date:yesterday"
+virtual-mailboxes "E-Mails von dieser Woche" "notmuch://?query=date:week.."
+virtual-mailboxes "E-Mails von diesem Monat" "notmuch://?query=date:month.."
+virtual-mailboxes "E-Mails von Freunden" "notmuch://?query=tag:Freunde"
+virtual-mailboxes "E-Mails von Familie" "notmuch://?query=tag:Familie"
+-----
+
+=== Farben
+	# Datum 
+	color body	brightwhite default  		"([0-3])?[0-9]\\.([0-1])?[0-9]\\.([1-2][0-9])?[0-9][0-9]"
+
+	# Uhrzeit
+	color body brightwhite default   "([0-2][0-9]|[0-9]|[1-2][0-9]):[0-5][0-9](:[0-5][0-9])?"
+
+	# URL
+	color body	cyan		default  	"((ftp|http|https)://|news:)[^ >)\"\t]+"
+
+	# E-Mail-Adresse
+	color body	brightcyan	default  	"[-a-z_0-9.+]+@[-a-z_0-9.]+"
+
+	# ***
+	color body	brightred		default		"(^| )\\*[-a-z0-9äöüß ]+\\*[,.?]?[ \n]"
+	# _text_
+	color body	brightgreen default 	"(^| )_[-a-z0-9äöüß_]+_[,.?]?[ \n]"
+
+	# Smileys
+	color body	yellow		black  		"[;:]-*[)oO>(<D]"
+	color body	yellow		black  		"[😀😁😂😃😄😅😆😇😈😉😊😋😌😍😎😏]"
+	color body	yellow		black  		"[😐😑😒😓😔😕😖😗😘😙😚😛😜😝😞😟]"
+
+	# [...]
+	color body yellow default "\\[\\.\\.\\.?\\]"
+
+	# Zahl in [x]
+	color body	brightblue	white  		"\\[[0-9]+\\]"
+
+	color body	brightgreen	default  		"\\[x\\]"
+	color body	brightred	default  		"\\[-\\]"
+
+	color body brightwhite default "^-+$"
+
+	color body white  brightblue "^[[:blank:]]*=[[:print:]]+=[[:blank:]]*$"
+	color body white  blue  "^[[:blank:]]*==+[[:print:]]+==+[[:blank:]]*$"
+
+	color body brightdefault default  "^[[:blank:]]*-[[:print:]]+$"
+	color body brightdefault default  "^[[:blank:]]*\\*[[:print:]]+$"
+
+
