@@ -1,15 +1,15 @@
-title=Infrastruktur
-doctitle=Infrastruktur
-date=2017-09-09
-type=project
-status=published
-git=
-website=https://www.vlug-hessen.de/project/infrastruktur.html
-projectURL=
-tags=projekte
-~~~~~~
+= Infrastuktur
+Stefan Kropp
+2017-09-09
+:jbake-type: project
+:jbake-status: published
+:jbake-tags: vlughessen, projekte
+:jbake-website: https://www.vlug-hessen.de/project/infrastruktur.html
+:idprefix:
+:toc:
 == Beschreibung
 Dieses Projekt behandelt alle Infrastuktur-Themen der vLUG-Hessen.
+
 * Server
 * Homepage
 * E-Mails
