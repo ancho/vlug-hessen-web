@@ -1,0 +1,18 @@
+= vLUG-Sprint-2018-04 
+Stefan Kropp
+2018-03-31
+:jbake-type: post
+:jbake-status: published
+:jbake-tags: vlughessen, sprint
+:idprefix:
+== Start vLUG-Sprint-2018-04
+Hallo zusammen,
+
+zum Osterfest starten wir mit dem 1. vLUG-Sprint. 
+Was ein vLUG-Sprint ist bzw. was wir uns vorstellen ist im Wiki beschrieben:
+https://github.com/vlug-hessen/planung-und-ideen/wiki/vLUG-Sprints
+
+Informationen zum Sprint 2018-04 sind im Wiki auf:
+https://github.com/vlug-hessen/planung-und-ideen/wiki/vLUG-Sprint-2018-04
+
+
