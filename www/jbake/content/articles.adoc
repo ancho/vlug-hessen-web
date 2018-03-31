@@ -1,0 +1,10 @@
+= Artikel 
+Stefan Kropp
+2017-09-16
+:jbake-type: page
+:jbake-status: published
+:jbake-tags: vlughessen 
+:idprefix:
+
+
+image:img/Books.jpg[width="800px]

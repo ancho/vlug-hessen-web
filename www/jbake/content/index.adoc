@@ -1,0 +1,15 @@
+= Home 
+Stefan Kropp 
+2017-09-03
+:jbake-type: page
+:jbake-status: published
+:jbake-tags: vlughessen 
+:idprefix:
+[abstract]
+Herzlich Willkommen auf der Homepage der virtuellen Linux User Group Hessen.
+
+image:img/logos/vlug-only.png[width="100px"]
+
+TIP: Mehr Informationen über die vLUG-hessen findest du link:about.html[hier].
+
+image:img/vlug-Titel.JPG[width"800px"]

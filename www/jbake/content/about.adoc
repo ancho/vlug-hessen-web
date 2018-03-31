@@ -1,0 +1,74 @@
+= Über uns
+Stefan Kropp
+2017-09-03
+:jbake-type: page
+:jbake-status: published
+:jbake-tags: vlughessen 
+:idprefix:
+:toc:
+
+[abstract]
+Herzlich Willkommen bei der vLUG-Hessen. Hier findest du ein paar Informationen
+über uns.
+
+== Was ist die vLUG-Hessen?
+_vlug-hessen_ steht für **v**irtuelle **L**inux **U**ser **G**roup
+*Hessen*". https://github.com/ancho[Frank] und https://github.com/DebXWoody[Stefan] haben die vLUG-Hessen eines Abends im IRC als spontane Idee "gegründet" und nach und
+nach ausgebaut. 
+
+Wir kommunizieren ausschließlich über Dienste im Internet:
+
+* Mailingliste
+* Git-Server
+* IRC
+* GnuSocial
+
+== Was macht die vLUG-Hessen?
+Unser primäres Ziel ist zusammen Spaß an und mit GNU/Linux zu haben. Unser Fokus liegt unter
+anderem auf der Softwareentwicklung.
+
+Wir tauschen uns aber auch über die Administration von Client-Server-Anwendungen aus, helfen uns
+gegenseitig bei der Anwendungserstellung und anderen Themen, die uns so interessieren.
+
+Wir möchten mit eigenen gemeinsamen Projekten unseren Teil zu GNU/Linux beitragen.
+
+== Mitmachen
+Wer kann mitmachen? Jeder, der Lust darauf hat. Man muss auch nicht aus Hessen kommen.
+Du willst bei der vLUG-Hessen mitmachen? Dies geht ganz einfach! Sende eine kurze E-Mail an kontakt@vlug-hessen.de.
+
+== Mailing List
+Dank tuxfamily.org haben wir jetzt zur Kommunikation eine Mailingliste.
+Du kannst dich mit einer E-Mail auf die Liste eintragen lassen.
+Sende eine E-Mail an `*vlughessen-request @ lists . tuxfamily . org*` mit dem Betreff "subscribe".
+Nachdem du die Anfrage bestätigt hast, wird diese noch mal von einem Admin von uns geprüft.
+Wir würde uns freuen, wenn du einfach auf der Liste dann mal "Hallo" sagst.
+
+== vLUG-Hessen auf GitHub
+Du findest uns auf GitHub unter: https://github.com/vlug-hessen.
+
+== Stammtisch
+image:img/icons/240px-Internet-group-chat.svg.png[width="50px"]
+Wie die meisten uns bekannten LUGs haben auch wir einen Stammtisch.
+
+Unser Stammtisch ist alle 2 Wochen Dienstags und Donnerstags im Wechsel.
+Treffen ist ab 19:00 Uhr im IRC Freenode - #vlughessen.
+
+* Dienstag, 06.03.2018
+* Donnerstag, 22.03.2018
+* Dienstag, 03.04.2018
+* Donnerstag, 19.04.2018
+
+Die Termine findest du auch im iCal-Format auf unserer Homepage:
+https://www.vlug-hessen.de/vlughessen-stammtisch-2018.ics[Stammtisch Termine 2018].
+
+== GnuSocial Blog
+image:img/logos/gnu-social-logo.svg[]
+
+Wer microblogs bevorzugt, den laden wir in unsere Gruppe im GNU social-Netzwerk ein.
+https://gnusocial.de/group/vlughessen
+
+== E-Mail
+image:img/icons/240px-Internet-mail.svg.png[width="50px"]
+Wir sind erreichbar unter kontakt@vlug-hessen.de.
+
+
