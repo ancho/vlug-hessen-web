@@ -1,14 +1,13 @@
-title=Sandbox
-doctitle=Sandbox
-date=2017-02-03
-type=project
-status=published
-git=https://github.com/vlug-hessen/Sandbox.git
-website=https://www.vlug-hessen.de/project/sandbox.html
-projectURL=https://github.com/vlug-hessen/Sandbox
-tags=projekte
-~~~~~~
-
+= vlug-sandbox 
+Stefan Kropp
+2017-02-03
+:jbake-type: project
+:jbake-status: published
+:jbake-tags: vlughessen, projekt 
+:idprefix:
+:jbake-git: https://github.com/vlug-hessen/vlug-sandbox.git
+:jbake-website: https://www.vlug-hessen.de/project/vlug-sandbox.html
+:jbake-projectURL: https://github.com/vlug-hessen/vlug-sandbox
 == Das Sandbox Projekt
 Das Sandbox Projekt ist ein git Repository in dem wir „Hello World“ Programme / Scripts, Beispiele und sonstiges Code speichern können, welchen wir gerne mit anderen Teilen wollen.
 
