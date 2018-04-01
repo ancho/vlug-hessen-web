@@ -5,7 +5,7 @@ type=project
 status=published
 git=https://github.com/vlug-hessen/Organizer.git
 website=https://www.vlug-hessen.de/project/organizer.html
-projectURL=https://github.com/vlug-hessen/Organizer
+project=https://github.com/vlug-hessen/Organizer
 tags=projekte
 ~~~~~~
 

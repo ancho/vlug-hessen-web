@@ -24,12 +24,12 @@ layout 'layout/main.tpl', true,
                                         dd{
                                             a(href:"${content.website}", "$content.website")
                                         }
-                                        if ( content.projectURL ) {
+                                        if ( content.project ) {
                                             dt{
                                                 strong("Projekt URL")
                                             }
                                             dd{
-                                                a(href:"${content.projectURL}","$content.projectURL")
+                                                a(href:"${content.project}","$content.project")
                                             }
                                         }
 

@@ -6,7 +6,7 @@ Stefan Kropp
 :jbake-tags: vlughessen
 :jbake-git: https://github.com/vlug-hessen/vlug-sandbox.git
 :jbake-website: https://www.vlug-hessen.de/project/vlug-sandbox.html
-:jbake-projectURL: https://github.com/vlug-hessen/vlug-sandbox
+:jbake-project: https://github.com/vlug-hessen/vlug-sandbox
 :idprefix:
 :toc:
 

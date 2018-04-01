@@ -7,7 +7,7 @@ Stefan Kropp
 :idprefix:
 :jbake-git: https://github.com/vlug-hessen/vlug-sandbox.git
 :jbake-website: https://www.vlug-hessen.de/project/vlug-sandbox.html
-:jbake-projectURL: https://github.com/vlug-hessen/vlug-sandbox
+:jbake-project: https://github.com/vlug-hessen/vlug-sandbox
 == Das Sandbox Projekt
 Das Sandbox Projekt ist ein git Repository in dem wir „Hello World“ Programme / Scripts, Beispiele und sonstiges Code speichern können, welchen wir gerne mit anderen Teilen wollen.
 
